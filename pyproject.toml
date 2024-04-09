@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw6"
+version = "0.1.0"
+description = "Python web HomeWork 6"
+authors = ["Oles Bychevsky"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+faker = "^22.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
